@@ -1,0 +1,53 @@
+/* 設定整體頁面背景與字體 */
+body {
+    /*背景顏色*/
+    background-color: #111;
+
+    /*文字顏色*/
+    color: #fff;     
+    
+    /*設定字型:'主要用這種',等寬字體*/
+    font-family: 'Courier New', monospace;
+
+    /*設定內距(留邊框啦)*/
+    padding: 30px;
+
+    /*行距*/
+    line-height: 1.6;
+  }
+  
+
+
+  /* 故事文字區塊 */
+  #story-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #4caf50;
+    background-color: #1a1a1a;
+  }
+  
+  /* 選項按鈕區塊 */
+  #options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* 每個選項按鈕的樣式 */
+  #options button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #4caf50;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /*碰到鼠標變色的設定*/
+  #options button:hover {
+    background-color: #4caf50;
+    color: #000;
+  }
+  
